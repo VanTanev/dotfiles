@@ -1,0 +1,35 @@
+[user]
+	name = CraftyShadow
+	email = vankata.t@gmail.com
+[color]
+	branch = auto
+	status = auto
+	diff   = auto
+	ui     = auto
+[branch]
+	autosetupmerge = true
+[color "branch"]
+	current = yellow reverse
+	local   = yellow
+	remote  = green
+[color "diff"]
+	meta	= yellow bold
+	frag	= magenta bold
+	old 	= red bold
+	new 	= green bold
+[color "status"]
+	added	= yellow
+	changed = green
+	untracked = cyan
+
+[core]
+	whitespace=fix;-ident-with-non-tab,trailing-space,cr-at-eol
+
+[alias]
+	st 	= status
+	ci	= commit
+	br	= branch
+	co	= checkout
+	df	= diff
+	lg	= log -p
+    datetag = !git tag `date "+%Y%m%d%H%M"`
