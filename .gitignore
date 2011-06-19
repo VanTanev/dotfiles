@@ -5,3 +5,4 @@
 !.gitconfig
 !.gitignore
 !.git-flow-completion.sh
+!.bash-ssh-agent.sh

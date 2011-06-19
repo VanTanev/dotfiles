@@ -1,4 +1,5 @@
 source .git-flow-completion.sh
+source .bash-ssh-agent.sh
 
 # some more ls aliases
 alias ls='ls --color=auto'
