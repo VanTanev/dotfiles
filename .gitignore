@@ -5,4 +5,5 @@
 !.gitconfig
 !.gitignore
 !.git-flow-completion.sh
+!.symfony-completion.sh
 !.bash-ssh-agent.sh

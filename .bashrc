@@ -1,4 +1,5 @@
 source .git-flow-completion.sh
+#source .symfony-completion.sh
 source .bash-ssh-agent.sh
 
 # some more ls aliases
