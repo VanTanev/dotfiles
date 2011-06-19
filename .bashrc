@@ -1,3 +1,5 @@
+source .git-flow-completion.sh
+
 # some more ls aliases
 alias ls='ls --color=auto'
 alias ll='ls -l'
