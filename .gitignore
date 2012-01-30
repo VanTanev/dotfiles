@@ -1,5 +1,6 @@
 *
 
+!bin/run-command-on-git-revisions
 !.vimrc
 !.bashrc
 !.gitconfig
