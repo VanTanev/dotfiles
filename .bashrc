@@ -11,6 +11,7 @@ alias l='ls -CF'
 alias g='git'
 alias tu='tar zxvf'
 alias v='vim --remote-silent'
+alias rb='ruby'
 
 # Auto-screen invocation. see: http://taint.org/wk/RemoteLoginAutoScreen
 # if we're coming from a remote SSH connection, in an interactive session
