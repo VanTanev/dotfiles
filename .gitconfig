@@ -41,6 +41,7 @@
     ff  = merge --ff-only
     pullff = pull --ff-only
     noff = merge --no-ff
+    pom = push origin
     pom = push origin master
     br	= branch
     df	= diff
