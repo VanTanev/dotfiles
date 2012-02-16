@@ -41,8 +41,9 @@
     ff  = merge --ff-only
     pullff = pull --ff-only
     noff = merge --no-ff
-    pom = push origin
+    po = push origin
     pom = push origin master
+    pod = push origin develop
     br	= branch
     df	= diff
     tagdate = !git tag `date "+%Y%m%d%H%M"`
