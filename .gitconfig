@@ -32,16 +32,19 @@
     co	= checkout
     di  = diff
     dc  = diff --cached
+    ig  =!([ ! -e .gitignore ] && touch .gitignore) | echo $1 >>.gitignore
+    alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t=> \\2/' | sort
     amend = commit --amend
+    famend = !git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend
     h   = !git head
-    l = "!source ~/.githelpers && pretty_git_log"
-    la = !git l --all
+    l   = "!source ~/.githelpers && pretty_git_log"
+    la  = !git l --all
     r   = !git l -20
     ra  = !git r --all
     ff  = merge --ff-only
     pullff = pull --ff-only
     noff = merge --no-ff
-    po = push origin
+    po  = push origin
     pom = push origin master
     pod = push origin develop
     br	= branch
@@ -77,6 +80,6 @@
     # example: search commits for "foobar", print full diff of commit with 1 line context
     #     git searchcommits foobar --pickaxe-all -U1 src/lib
     searchcommits = "!f() { query=\"$1\"; shift; git log -S\"$query\" \"$@\"; }; f \"$@\""
-	
+
 [gui]
 	encoding = utf-8
