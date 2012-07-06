@@ -1,5 +1,5 @@
 [user]
-	name = CraftyShadow
+	name = IvanTanev
 	email = vankata.t@gmail.com
 [color]
 	branch = auto
@@ -24,14 +24,17 @@
 
 [core]
 	whitespace=fix;-indent-with-non-tab,trailing-space,cr-at-eol
+	autocrlf = true
 
 [alias]
-    st 	= status
+    st 	= status -sb
     aa  = add --all
     ci	= commit
     co	= checkout
-    di  = diff
+    df	= diff
+    dfw	= diff --word-diff
     dc  = diff --cached
+    dcw  = diff --cached --word-diff
     ig  =!([ ! -e .gitignore ] && touch .gitignore) | echo $1 >>.gitignore
     alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t=> \\2/' | sort
     amend = commit --amend
@@ -48,7 +51,6 @@
     pom = push origin master
     pod = push origin develop
     br	= branch
-    df	= diff
     tagdate = !git tag `date "+%Y%m%d%H%M"`
 	
     # Show status and diff of dirty submodules
@@ -83,3 +85,5 @@
 
 [gui]
 	encoding = utf-8
+[push]
+	default = upstream
