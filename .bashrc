@@ -1,6 +1,7 @@
-source .git-flow-completion.sh
+source ~/.git-flow-completion.sh
 #source .symfony-completion.sh
-source .bash-ssh-agent.sh
+source ~/.bash-ssh-agent.sh
+source ~/z.sh
 
 # some more ls aliases
 alias ls='ls --color=auto'
@@ -13,6 +14,10 @@ alias g='git'
 alias tu='tar zxvf'
 alias v='vim --remote-silent'
 alias rb='ruby'
+alias cdw='cd /w/WEBSERVER'
+alias cddg='cd /w/WEBSERVER/register-varna'
+alias irb='irb --noreadline'
+alias dvagrant='VAGRANT_LOG=info vagrant'
 
 # Auto-screen invocation. see: http://taint.org/wk/RemoteLoginAutoScreen
 # if we're coming from a remote SSH connection, in an interactive session

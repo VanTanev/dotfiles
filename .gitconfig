@@ -25,6 +25,7 @@
 [core]
 	whitespace=fix;-indent-with-non-tab,trailing-space,cr-at-eol
 	autocrlf = true
+	editor = vim
 
 [alias]
     st 	= status -sb
@@ -47,6 +48,7 @@
     ff  = merge --ff-only
     pullff = pull --ff-only
     noff = merge --no-ff
+    fp = fetch --prune
     po  = push origin
     pom = push origin master
     pod = push origin develop
