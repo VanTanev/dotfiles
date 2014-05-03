@@ -2,7 +2,9 @@
 
 !bin/run-command-on-git-revisions
 !.vimrc
+!.vim/bundle/*
 !.bashrc
+!.bash_aliases
 !.gitconfig
 !.gitignore
 !.githelpers

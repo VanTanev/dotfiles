@@ -1,4 +1,6 @@
 dotfiles
 ========
 
-This was just a dotfiles repo made with windows and msysgi in mind. It's now obsolete in favour of [dotfiles2](https://github.com/VanTanev/dotfiles2)
+A dotfiles repo made with windows and msysgi in mind. 
+
+The Linux/Mac OSX version is here: [dotfiles2](https://github.com/VanTanev/dotfiles2)
