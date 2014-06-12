@@ -6,10 +6,11 @@
 !vimfiles/autoload/pathogen.vim
 !vimfiles/bundle/*
 !vimfiles/syntax/*
+
 !.bashrc
-!.bash_aliases
+!.bash-ssh-agent
+!.aliases
+!.ackrc
+
 !.gitconfig
 !.gitignore
-!.ackrc
-!.symfony-completion.sh
-!.bash-ssh-agent.sh
