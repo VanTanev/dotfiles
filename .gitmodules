@@ -1,12 +1,9 @@
-[submodule ".vim/bundle/vim-sensible"]
-	path = .vim/bundle/vim-sensible
+[submodule "vimfiles/bundle/vim-sensible"]
+	path = vimfiles/bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
-[submodule ".vim/bundle/Command-T"]
-	path = .vim/bundle/Command-T
-	url = https://github.com/wincent/Command-T
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
-[submodule ".vim/bundle/vim-ruby"]
-	path = .vim/bundle/vim-ruby
+[submodule "vimfiles/bundle/vim-ruby"]
+	path = vimfiles/bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "vimfiles/bundle/vim-rails"]
+	path = vimfiles/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails

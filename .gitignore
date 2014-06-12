@@ -1,9 +1,11 @@
 *
-
 !bin/run-command-on-git-revisions
 !bin/beep
 !.vimrc
-!vimfiles
+!vimfiles/
+!vimfiles/autoload/pathogen.vim
+!vimfiles/bundle/*
+!vimfiles/syntax/*
 !.bashrc
 !.bash_aliases
 !.gitconfig
