@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo -en "\007"
+echo -en "\007"
+echo -en "\007"
