@@ -1,14 +1,13 @@
 *
 
 !bin/run-command-on-git-revisions
+!bin/beep
 !.vimrc
-!.vim/bundle/*
+!vimfiles
 !.bashrc
 !.bash_aliases
 !.gitconfig
 !.gitignore
-!.githelpers
-!.git-flow-completion.sh
+!.ackrc
 !.symfony-completion.sh
 !.bash-ssh-agent.sh
-!z.sh

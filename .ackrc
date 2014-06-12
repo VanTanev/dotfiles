@@ -1,0 +1,32 @@
+# case-insensitive searching
+--ignore-case
+
+# lexically sort filenames
+--sort-files
+
+--type-add=ruby=rake,haml
+--type-add=vim=vimrc
+--type-add=js=json
+--type-set=cucumber=feature
+--type-set=css=sass
+
+# add types ack doesn't know about
+--type-set=MARKDOWN=md,mkd,markdown
+--type-set=RDOC=rdoc
+--type-set=haml=.haml
+--type-set=slim=.slim
+--type-set=mustache=.mustache,.mu,.handlebars,.hbs,.hbars
+--type-set=sass=.sass,.scss
+--type-set=coffeescript=.coffee
+--type-set=emblem=.emblem
+
+# ignore some stuff we usually wouldn't want
+--ignore-dir=log
+--ignore-dir=tmp
+--ignore-dir=vendor
+--ignore-dir=.git
+--ignore-dir=.svn
+--ignore-dir=.idea
+--ignore-dir=vendor/bundle
+--ignore-dir=gems
+--ignore-dir=.bundle
