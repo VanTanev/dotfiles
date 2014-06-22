@@ -6,6 +6,12 @@ execute pathogen#infect()
 :call pathogen#helptags()
 filetype plugin indent on
 
+" adjust configuration for such hostile environment as Windows {{{
+if has("win32") || has("win16")
+  nmap <C-z> :silent !sh -login -i<cr> " Under Windows, vim spawns a new shell instead of doing job control. Make sure it's the proper interactive shell of MSYSGIT
+endif
+" }}}
+
 " allow unsaved background buffers and remember marks/undo for them
 set hidden
 " remember more commands and search history
