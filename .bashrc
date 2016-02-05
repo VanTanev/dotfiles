@@ -4,3 +4,5 @@ for file in ~/.{bash-ssh-agent,aliases,extra}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
+
+export EDITOR=$(which vim)

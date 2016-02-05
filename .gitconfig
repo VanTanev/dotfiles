@@ -1,5 +1,5 @@
 [user]
-	name = IvanTanev
+	name = Ivan Tanev
 	email = vankata.t@gmail.com
 [color]
 	branch = auto
@@ -89,3 +89,7 @@
 	encoding = utf-8
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true

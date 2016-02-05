@@ -7,3 +7,6 @@
 [submodule "vimfiles/bundle/vim-rails"]
 	path = vimfiles/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
+[submodule "vimfiles/bundle/vim-commentary"]
+	path = vimfiles/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
